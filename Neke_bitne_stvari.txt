@@ -1,0 +1,57 @@
+tipovi podataka
+Double(realan broj - broj sa zarezom - duplo veca preciznost), Single(realan broj - broj sa zarezom), Integer(ceo broj), Long(ceo broj, duplo veca preciznost), String(tekst), Boolean(true ili false), Date(datum),
+Variant(moze da se koristi umeto bilo kog tipa podatka, ali je i najsporiji)
+
+Nizovi
+Dim Niz(4) As Integer (elementi idu od 0 do 4)
+Dim Niz2(1 to 50) As Integer(od 1 do 49)
+
+ReDim Niz1(10) ' menja mu maksimalni broj elemenata na 10(od 0 do 9)
+
+
+Rem - komentar
+' - takodje komentar
+
+Petlje
+
+For i = 0 To 10
+  odradi nesto...
+Next i
+
+i je brojac, i sve sto se nalazi unutar for-a ce se izvrsiti onoliko puta koliko se naglasi odredbom To
+
+(izvrsava se bar jednom)
+Do
+  neke komande
+Loop While i < 10
+
+
+(izvrsava se bar jednom)
+Do
+  neke komande
+Loop Until i < 10
+
+
+(moze a i ne mora da se izvrsi - ako je i = 10, nece se izvrsiti)
+Do While i < 10
+  neke komande
+Loop
+
+
+(moze a i ne mora da se izvrsi - ako je i = 10, nece se izvrsiti)
+Do Until i < 10
+  neke komande
+Loop
+
+Neke od bitnih funkcija
+
+Int(string) - pretvara string u integer
+Str(broj) - pretvara broj u string
+Val(string) - pretvara string u double
+Format(sta, "oblik") - formatira neki podatak u string, u zavisnosti od za
+InputBox("Poruka koju treba da ispise program kada trazi da se unese neki podatak")
+MsgBox "Poruka koja ce se ispisati"
+
+
+Exit Sub/Exit Function - sluzi za prekid rada u funkciji
+End - prekida kompletan program
