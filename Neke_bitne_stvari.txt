@@ -18,6 +18,15 @@ For i = 0 To 10
   odradi nesto...
 Next i
 
+If uslov Then
+  odradi nesto
+End If
+
+If broj < 5 Then
+  Nesto...
+End If
+
+
 Opcioni parametar je Step (primer je For i = 0 To 10 Step 2 - pomerace za po 2 - 0, 2, 4, ... ), i to znaci da ne mora da se doda (ako se ne doda, primenjivace se korak 1 (pomerace se za 1))
 
 i je brojac, i sve sto se nalazi unutar for-a ce se izvrsiti onoliko puta koliko se naglasi odredbom To
